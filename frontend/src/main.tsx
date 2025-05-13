@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProductDetails from './components/ProductDetails';
 
 const client = new ApolloClient({
-  uri: 'https://projectsengine.lovestoblog.com/backend', // Your backend GraphQL endpoint
+  uri: 'http://localhost:8000', // Your backend GraphQL endpoint
   cache: new InMemoryCache(),
 });
 
